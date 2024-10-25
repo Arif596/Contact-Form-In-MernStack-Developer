@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  height: 100vh;
+  background-color: rgb(11, 0, 59);
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-contact {
+  box-shadow: rgba(203, 196, 196, 0.941) 0px 5px 15px;
+  border-radius: 1rem;
+}
+input {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 600px;
+}
+textarea {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 600px;
+}
+.cont-form {
+  height: auto;
+}
+#imp {
+  width: 290px !important;
+}
